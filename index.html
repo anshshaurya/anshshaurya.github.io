@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Think! Rest! Refresh!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="split left">
+            <article><h3 id="ques" >Question</h3></article>
+            <div class="options">
+                <h5>
+                    <p id="FullQuestion">This is Demo Question</p>
+                </h5>
+                <table>
+                    <tr>
+                        <td><button class="optn btn" id="Option1" onclick="option1()">Option 1</button></td>
+                        <td><button class="optn btn" id="Option2" onclick="option2()">Option 2</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="optn btn" id="Option3" onclick="option3()">Option 3</button></td>
+                        <td><button class="optn btn" id="Option4" onclick="option4()">Option 4</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="optn btn" id="Option5" onclick="option5()">Option 5</button></td>
+                        <td><button class="optn btn" id="Option6" onclick="option6()">Option 6</button></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <!-- <td><p class="pagination1 pgspan1"> Pages: </p></td> -->
+                        <td><button class="pagination pgspan" id="page1" onclick="page1()" >1</button></td>
+                        <td><button class="pagination pgspan" id="page2" onclick="page2()" >2</button></td>
+                        <td><button class="pagination pgspan" id="page3" onclick="page3()" >3</button></td>
+                        <td><button class="pagination pgspan" id="page4" onclick="page4()" >4</button></td>
+                        <td><button class="pagination pgspan" id="page5" onclick="page5()" >5</button></td>
+                        <td><button class="pagination pgspan" id="page6" onclick="page6()" >6</button></td>
+                        <td><button class="pagination pgspan" id="page7" onclick="page7()" >7</button></td>
+                        <td><button class="pagination pgspan" id="page8" onclick="page8()" >8</button></td>
+                        <td><button class="pagination pgspan" id="page9" onclick="page9()" >9</button></td>
+                        <td><button class="pagination pgspan" id="page10" onclick="page10()" >10</button></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        <div class="split right">
+            <div>
+                <h3>
+                    <p>Timer</p>
+                    <p>-----------------------------</p>
+                    <p>Seconds Remaining:</p>
+                    <p id="seconds">120</p>
+                    <p id="feedback">Start!</p>
+                    <p>------------------------</p>
+                    <button class=glow-on-hover type="button" value="Start" onclick="start()">Start</button>
+                    <button class=glow-on-hover type="button" value="Pause" onclick="pause()">Pause</button>
+                    <button class=glow-on-hover type="button" value="Stop" onclick="stop()">Stop</button>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
